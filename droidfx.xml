@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://github.com/" name="github" />
+
+  <remote name ="github" fetch="git://github.com/" />
+
+  <!-- AOKP removals -->
+  <remove-project name="" />
+
+  <!-- AOKP replacements -->
+  <project path="build" name="droidfx/aokp_build" remote="github" revision="jb-mr2" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <project name="droidfx/android_vendor_aokp" path="vendor/aokp" remote="github" revision="jb-mr2" />
   <project name="droidfx/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="cm-10.2" />
