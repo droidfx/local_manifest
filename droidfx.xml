@@ -9,7 +9,7 @@
   <remove-project name="AOKP/device_motorola_qcom-common" />
 
   <!-- AOKP replacements -->
-  <project path="build" name="droidfx/aokp_build" remote="github" revision="jb-mr2" >
+  <project name="droidfx/aokp_build" path="build" remote="github" revision="jb-mr2" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
