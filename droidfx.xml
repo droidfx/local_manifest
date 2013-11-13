@@ -4,7 +4,6 @@
   <remote name ="github" fetch="git://github.com/" />
 
   <!-- AOKP removals -->
-  <remove-project name="" />
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/device_motorola_qcom-common" />
   
