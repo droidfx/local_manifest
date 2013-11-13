@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://github.com/" name="github" />
+
+  <remote name ="github" fetch="git://github.com/" />
+
+  <!-- AOKP removals -->
+  <remove-project name="" />
+  <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="AOKP/device_motorola_qcom-common" />
+  
+  <!-- AOKP replacements -->
+  <project path="build" name="droidfx/aokp_build" remote="github" revision="jb-mr2" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
 
   <project name="droidfx/android_vendor_aokp" path="vendor/aokp" remote="github" revision="jb-mr2" />
   <project name="droidfx/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="cm-10.2" />
@@ -8,10 +19,12 @@
   <project name="droidfx/android_device_motorola_xt926" path="device/motorola/xt926" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_mb886" path="device/motorola/mb886" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_xt1080" path="device/motorola/xt1080" remote="github" revision="cm-10.2" />
-  <project name="droidfx/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-10.2" />
-  <project name="PAC-Motorola/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-10.2" />
-  <project name="PAC-Motorola/android_device_motorola_msm8960dt-common" path="device/motorola/msm8960dt-common" remote="github" revision="cm-10.2" />
+  <project name="droidfx/device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="cm-10.2" />
+  
+  <!-- Potential Later Use -->
+  <!-- <project name="PAC-Motorola/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-10.2" /> -->
+  <!-- <project name="PAC-Motorola/android_device_motorola_msm8960dt-common" path="device/motorola/msm8960dt-common" remote="github" revision="cm-10.2" /> -->
   <!-- <project name="CyanogenMod/android_kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="github" revision="cm-10.2" /> -->
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.2" />
+  <!-- <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.2" /> -->
 </manifest>
