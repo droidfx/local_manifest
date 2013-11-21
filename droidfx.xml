@@ -6,7 +6,8 @@
   <!-- AOKP removals -->
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/device_motorola_qcom-common" />
-
+  <remove-project name="AOKP/hardware/ril" />
+  
   <!-- AOKP replacements -->
   <project name="droidfx/android_vendor_aokp" path="vendor/aokp" remote="github" revision="jb-mr2" />
   <project name="droidfx/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="cm-10.2" />
@@ -14,9 +15,7 @@
   <project name="droidfx/android_device_motorola_xt926" path="device/motorola/xt926" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_mb886" path="device/motorola/mb886" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_xt1080" path="device/motorola/xt1080" remote="github" revision="cm-10.2" />
-  <!-- Testing CM's qcom-common
-  <project name="droidfx/device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="jb-mr2" />
-  -->
+  <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-10.2" />
   <project name="tucstwo/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="cm-10.2" />
