@@ -14,7 +14,7 @@
   <project name="droidfx/android_device_motorola_xt925" path="device/motorola/xt925" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_xt926" path="device/motorola/xt926" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_mb886" path="device/motorola/mb886" remote="github" revision="cm-10.2" />
-  <project name="droidfx/android_device_motorola_xt1080" path="device/motorola/xt1080" remote="github" revision="cm-10.2" />
+  <project name="droidfx/android_device_motorola_xt1080c" path="device/motorola/xt1080c" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-10.2" />
