@@ -17,7 +17,7 @@ Make a build directory:
 
 Init repo only for official devices first:
 
-    repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2 -g all,-notdefault,flo,grouper,jfltevzw,xt1060,asus,samsung,motorola
+    repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2 -g all,-notdefault,flo,grouper,toro,jfltevzw,xt1060,asus,samsung,motorola
 
 Then download additional repo's for unofficial devices:
 
