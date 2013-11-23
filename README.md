@@ -1,4 +1,4 @@
-local_manifest
+Kitkat local_manifest
 ======================
 
 Local Manifest for building AOKP on our supported Devices
