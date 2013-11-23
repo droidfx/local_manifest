@@ -17,13 +17,13 @@ Make a build directory:
 
 Init repo only for official devices first:
 
-    repo init -u https://github.com/AOKP/platform_manifest.git -b jb-mr2 -g all,-notdefault,flo,grouper,toro,jfltevzw,xt1060,asus,samsung,motorola
+    repo init -u https://github.com/AOKP/platform_manifest.git -b jb-kitkat -g all,-notdefault,flo,grouper,toro,jfltevzw,xt1060,asus,samsung,motorola
 
 Then download additional repo's for unofficial devices:
 
-    curl -L -o .repo/local_manifests/droidfx.xml -O -L https://raw.github.com/droidfx/local_manifest/jb-mr2/droidfx.xml
+    curl -L -o .repo/local_manifests/droidfx.xml -O -L https://raw.github.com/droidfx/local_manifest/kitkat/droidfx.xml
  
-    	( or Download: https://github.com/droidfx/local_manifest/blob/master/droidfx.xml
+    	( or Download: https://github.com/droidfx/local_manifest/blob/kitkat/droidfx.xml
 		and place it in your ~/Android/.repo/local_manifest.xml (or ~/'name you choose'/.repo)
 
 Then sync up:
