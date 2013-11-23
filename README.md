@@ -1,4 +1,4 @@
-local_manifest
+jb-mr2 local_manifest
 ======================
 
 Local Manifest for building AOKP on our supported Devices
