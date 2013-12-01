@@ -16,11 +16,15 @@
   <project name="droidfx/android_device_motorola_mb886" path="device/motorola/mb886" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_xt1080c" path="device/motorola/xt1080c" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_xt1080" path="device/motorola/xt1080" remote="github" revision="cm-10.2" />
+  <project name="droidfx/android_device_lge_vs980" path="device/lge/vs980" remote="github" revision="cm-10.2" />
+  <project name="droidfx/android_device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-10.2" />
   <project name="droidfx/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-10.2" />
   <project name="CyanogenMod/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="cm-10.2" />
+  <project name="CyanogenMod/android_kernel_lge_msm8947" path="kernel/lge/msm8974" remote="github" revision="cm-10.2" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.2" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-10.2" />
   
   <!-- Potential Later Use -->
   <!-- <project name="PAC-Motorola/android_device_motorola_msm8960dt-common" path="device/motorola/msm8960dt-common" remote="github" revision="cm-10.2" /> -->
