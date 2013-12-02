@@ -26,6 +26,10 @@
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-10.2" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-10.2" />
   
+  <!-- Testing for VS980 as per CM Dependencies -->
+  <project name="Cyanogenmod/android_hardware_qcom_display-mdss" path="hardware/qcom/display-mdss" remote="github" revision="cm-10.2" />
+  <project name="Cyanogenmod/android_hardware_qcom_media-v4l2" path="hardware/qcom/media-v4l2" remote="github" revision="cm-10.2" />
+  
   <!-- Potential Later Use -->
   <!-- <project name="PAC-Motorola/android_device_motorola_msm8960dt-common" path="device/motorola/msm8960dt-common" remote="github" revision="cm-10.2" /> -->
   <!-- <project name="CyanogenMod/android_kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="github" revision="cm-10.2" /> -->
