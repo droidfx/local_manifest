@@ -31,6 +31,5 @@
   <project name="CyanogenMod/android_hardware_qcom_media-v4l2" path="hardware/qcom/media-v4l2" remote="github" revision="cm-10.2" />
   
   <!-- Potential Later Use -->
-  <!-- <project name="PAC-Motorola/android_device_motorola_msm8960dt-common" path="device/motorola/msm8960dt-common" remote="github" revision="cm-10.2" /> -->
   <!-- <project name="CyanogenMod/android_kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="github" revision="cm-10.2" /> -->
 </manifest>
