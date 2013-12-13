@@ -17,7 +17,7 @@ Make a build directory:
 
 Init repo only for official devices first:
 
-    repo init -u https://github.com/AOKP/platform_manifest.git -b jb-kitkat -g all,-notdefault,flo,grouper,toro,jfltevzw,xt1060,asus,lge,samsung,motorola
+    repo init -u https://github.com/AOKP/platform_manifest.git -b kitkat -g all,-notdefault,flo,grouper,toro,jfltevzw,xt1060,asus,lge,samsung,motorola
 
 Then download additional repo's for unofficial devices:
 
