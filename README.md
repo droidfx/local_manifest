@@ -24,7 +24,7 @@ Then download additional repo's for unofficial devices:
     curl -L -o .repo/local_manifests/droidfx.xml -O -L https://raw.github.com/droidfx/local_manifest/kitkat/droidfx.xml
  
     	( or Download: https://github.com/droidfx/local_manifest/blob/kitkat/droidfx.xml
-		and place it in your ~/Android/.repo/local_manifest.xml (or ~/'name you choose'/.repo)
+		and place it in your ~/Android/.repo/local_manifests/droidfx.xml (or ~/'name you choose'/.repo/local_manifests/ )
 
 Then sync up:
 
