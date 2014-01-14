@@ -22,7 +22,6 @@
   <!-- <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-11.0" /> -->
   <project name="droidfx/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_kernel_lge_msm8974" path="kernel/lge/msm8974" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
   
