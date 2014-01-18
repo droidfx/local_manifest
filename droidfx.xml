@@ -20,10 +20,11 @@
   <!-- <project name="droidfx/android_device_lge_vs980" path="device/lge/vs980" remote="github" revision="cm-11.0" /> -->
   <!-- <project name="droidfx/android_device_lge_g2-common" path="device/lge/g2-common" remote="github" revision="cm-11.0" /> -->
   <project name="droidfx/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-11.0" />
+  <project name="droidfx/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" revision="cm-11.0" />
   <!-- <project name="CyanogenMod/android_hardware_ril" path="hardware/ril" remote="github" revision="cm-11.0" /> -->
   <project name="droidfx/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-11.0" />
+  <project name="droidfx/android_kernel_htc_m7" path="kernel/htc/m7" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="cm-11.0" />
-  <project name="droidfx/android_kernel_htc_msm8960-common" path="kernel/htc/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-11.0" />
