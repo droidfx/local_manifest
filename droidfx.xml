@@ -14,7 +14,7 @@
   <project name="droidfx/android_device_motorola_xt925" path="device/motorola/xt925" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_device_motorola_xt926" path="device/motorola/xt926" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_device_motorola_mb886" path="device/motorola/mb886" remote="github" revision="cm-11.0" />
-  <project name="droidfx/android_device_htc_dlx" path="device/htc/dlx" remote="github" revsion="cm-11.0" />
+  
   <!-- <project name="droidfx/android_device_motorola_xt1080c" path="device/motorola/xt1080c" remote="github" revision="cm-11.0" /> -->
   <!-- <project name="droidfx/android_device_motorola_xt1080" path="device/motorola/xt1080" remote="github" revision="cm-11.0" /> -->
   <project name="droidfx/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-11.0" />
