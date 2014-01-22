@@ -21,7 +21,7 @@ Init repo only for official devices first:
 
 Then download additional repo's for unofficial devices:
 
-    curl -L -o .repo/local_manifests/droidfx.xml -O -L https://raw.github.com/droidfx/local_manifest/TimIZAnnoying/droidfx.xml
+    curl -L -o .repo/local_manifests/droidfx.xml -O -L https://raw.github.com/droidfx/local_manifest/TimIZAwesome/droidfx.xml
  
     	( or Download: https://github.com/droidfx/local_manifest/blob/TimIZAnnoying/droidfx.xml
 		and place it in your ~/Android/.repo/local_manifests/droidfx.xml (or ~/'name you choose'/.repo/local_manifests/ )
