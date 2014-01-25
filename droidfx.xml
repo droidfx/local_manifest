@@ -5,7 +5,6 @@
 
   <!-- AOKP removals -->
   <remove-project name="AOKP/vendor_aokp" />
-  <remove-project name="AOKP/device_motorola_qcom-common" />
   
   <!-- AOKP replacements -->
   <project name="droidfx/vendor_aokp" path="vendor/aokp" remote="github" revision="kitkat" />
@@ -14,7 +13,6 @@
   <project name="droidfx/android_device_motorola_xt926" path="device/motorola/xt926" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_device_motorola_mb886" path="device/motorola/mb886" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_device_htc_dlx" path="device/htc/dlx" remote="github" revision="cm-11.0" />
-  <project name="droidfx/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-11.0" />
   
   <project name="droidfx/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-11.0" />
