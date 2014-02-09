@@ -5,6 +5,7 @@
 
   <!-- AOKP removals -->
   <remove-project name="AOKP/vendor_aokp" />
+  <remove-project name="AOKP/vendor_motorola" />
   
   <!-- AOKP replacements -->
   <project name="droidfx/vendor_aokp" path="vendor/aokp" remote="github" revision="kitkat" />
