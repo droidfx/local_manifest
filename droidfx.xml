@@ -12,16 +12,14 @@
   <project name="droidfx/android_device_motorola_xt925" path="device/motorola/xt925" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_device_motorola_xt926" path="device/motorola/xt926" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_device_motorola_mb886" path="device/motorola/mb886" remote="github" revision="cm-11.0" />
-  <project name="droidfx/android_device_htc_dlx" path="device/htc/dlx" remote="github" revision="cm-11.0" />
   
-  <project name="droidfx/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_kernel_htc_m7" path="kernel/htc/m7" remote="github" revision="cm-11.0" />
   
   <project name="droidfx/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" />
-  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-11.0" />
+
    
      
 </manifest>
