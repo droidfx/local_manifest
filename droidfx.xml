@@ -18,8 +18,6 @@
   
   <project name="droidfx/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
-  <!- <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" /> -->
+  <!-- <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" /> -->
 
-   
-     
 </manifest>
