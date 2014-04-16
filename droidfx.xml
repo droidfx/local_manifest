@@ -7,17 +7,17 @@
   <remove-project name="AOKP/vendor_aokp" />
   <remove-project name="AOKP/vendor_motorola" />
   <remove-project name="AOKP/device_motorola_qcom-common" />
+  <remove-project name="AOKP/device_qcom_common" />
   
   <!-- AOKP replacements -->
   <project name="droidfx/vendor_aokp" path="vendor/aokp" remote="github" revision="kitkat" />
-  <project name="droidfx/android_device_motorola_xt907" path="device/motorola/xt907" remote="github" revision="cm-11.0" />
-  <project name="droidfx/android_device_motorola_xt925" path="device/motorola/xt925" remote="github" revision="cm-11.0" />
-  <project name="droidfx/android_device_motorola_xt926" path="device/motorola/xt926" remote="github" revision="cm-11.0" />
-  <project name="droidfx/android_device_motorola_mb886" path="device/motorola/mb886" remote="github" revision="cm-11.0" />
+  <project name="droidfx/android_device_motorola_moto_msm8960" path="device/motorola/moto_msm8960" remote="github" revision="cm-11.0" />
+  <project name="droidfx/android_device_motorola_moto_msm8960dt" path="device/motorola/moto_msm8960dt" remote="github" revision="cm-11.0" />
   <project name="droidfx/android_device_motorola_qcom-common" path="device/motorola/qcom-common" remote="github" revision="cm-11.0" />
-  <project name="droidfx/android_device_motorola_msm8960-common" path="device/motorola/msm8960-common" remote="github" revision="cm-11.0" />
+  <project name="droidfx/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
   
   <project name="droidfx/android_kernel_motorola_msm8960-common" path="kernel/motorola/msm8960-common" remote="github" revision="cm-11.0" />
+  <project name="droidfx/android_kernel_motorola_msm8960dt-common" path="kernel/motorola/msm8960dt-common" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-11.0" />
   <!-- <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-11.0" /> -->
 
